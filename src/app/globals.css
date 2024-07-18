@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+background-color: #BBE9FF;
+}
+
+.MuiPaginationItem-ellipsis {
+  color: #fff !important; /* Mengubah warna teks "..." menjadi putih */
+  opacity: 0.5; /* Atur kecerahan teks "..." */
+}
+
