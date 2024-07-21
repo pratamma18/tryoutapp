@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+<<<<<<< HEAD
 @font-face {
   font-family: 'Poppins';
   src: url('../../public/font/Poppins/Poppins-Medium.ttf') format('truetype');
@@ -13,6 +14,10 @@
 body {
 background-color: #BBE9FF;
 font-family: 'Poppins', sans-serif;
+=======
+body {
+background-color: #BBE9FF;
+>>>>>>> 5e06176eb4014e5f90154783ec7aa0f7665779a4
 }
 
 .MuiPaginationItem-ellipsis {
@@ -20,4 +25,7 @@ font-family: 'Poppins', sans-serif;
   opacity: 0.5; /* Atur kecerahan teks "..." */
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5e06176eb4014e5f90154783ec7aa0f7665779a4
