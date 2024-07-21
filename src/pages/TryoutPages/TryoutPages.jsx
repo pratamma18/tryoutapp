@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 'use client'
 import * as React from 'react';
 import { Container, Stack, Paper } from '@mui/material';
@@ -20,27 +19,4 @@ export default function TryoutPages() {
       </Container>
     </>
   );
-=======
-'use client'
-import * as React from 'react';
-import { Container, Stack, Paper } from '@mui/material';
-import HeaderBar from '@/components/HeaderBar/HeaderBar';
-import QuestionsPages from '@/components/QuestionsPages/QuestionsPages';
-import "../../app/globals.css";
-
-export default function TryoutPages() {
-  return (
-    <>
-      <Container>
-        <Stack spacing={2}>
-
-            <HeaderBar />
-            <Container>
-              <QuestionsPages/>
-            </Container>
-        </Stack>
-      </Container>
-    </>
-  );
->>>>>>> 5e06176eb4014e5f90154783ec7aa0f7665779a4
 }
